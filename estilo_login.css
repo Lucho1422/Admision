@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Segoe UI;
+}
+
+body{
+    /*background-color: #E5ECF9;*/
+    background-color: #c99b1de0;
+}
+
+.container{
+    display: flex;
+    height: 600px;
+    width: 1000px;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+    margin: auto;
+    margin-top: 60px;
+background-color: #FFA559;}
+
+.info{
+    background-image: url(/sistema/img/liceo_footer.png);
+    background-color:  #FFE6C7;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 40px 50px;
+    width: 40%;
+}
+
+.txt-1{
+    color: #0f0e05;
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.info h2{
+    color: #0b0202;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: left;
+}
+
+
+.info h3{
+    color: #090b06;
+    font-size: 14px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.info hr{
+    width: 70px;
+    border: 4px solid #000000;
+    margin-left: 210px;
+    margin-bottom: 25px;
+}
+
+.imagen{
+    margin-top: 10px;
+    width: 20%;
+}
+
+.txt-2{
+    color: #151010;
+    font-size: 14px;
+    line-height: 1.7em;
+}
+
+.form{
+    padding: 100px 100px;
+    width: 60%;
+    text-align: left;
+    background-color: rgba(238, 163, 0, 0.652);
+}
+
+.form h2{
+    font-size: 30px;
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+.form p{
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.box{
+    outline: none;
+    border-color: #02070b;
+    border-width: 0px 0px 0px 5px;
+    border-style: solid;
+    padding: 8px 15px;
+    margin-bottom: 20px;
+    background-color: #fc900398;
+}
+
+.inputs a{
+    color: #040506;
+    text-decoration: none;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.submit{
+    background-color: #000000;
+    padding: 15px;
+    border: 0;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.submit:hover{
+    background-color: #6ca175;
+    padding: 15px;
+    border: 0;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+/* respolsive*/
+@media(max-width:990px){
+    .container{
+        width: 350px;
+        height: 600px;
+        margin-top: 100px;
+    }
+
+    .info{
+        display: none;
+    }
+
+    .form{
+        width: 100%;
+        padding: 30px;
+    }
+
+    .form h2{
+        margin-top: 40px;
+    }
+}
+
+.boton_postular{
+    background-color: #fffb00;
+    padding: 30px;
+    border: 0;
+    color: #000000;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 15px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.boton_postular:hover{
+    background-color: #e24e09;
+    padding: 30px;
+    border: 0;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}

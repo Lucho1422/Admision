@@ -1,0 +1,22 @@
+body{
+    background-color: #E5ECF9;
+    background-color: #354055;
+}
+
+.box{
+    outline: none;
+    border-color: #1975c1;
+    border-width: 0px 0px 0px 5px;
+    border-style: solid;
+    padding: 8px 15px;
+    margin-bottom: 20px;
+    background-color: #3e4e4298;
+}
+.bee{
+    display: flex;
+    height: 600px;
+    width: 1000px;
+    box-shadow: 0 0 20px rgb(115, 107, 99);
+    margin: auto;
+    margin-top: 60px;
+background-color: #FFA559;}
